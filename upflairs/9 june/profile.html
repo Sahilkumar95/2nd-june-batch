@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+
+
+  <style>
+    body {
+      background-color: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .card {
+      width: 300px;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border: 4px solid #000000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-family: 'Poppins', sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: #333;
+      text-shadow: 3px 3px 3px red ;
+      margin: 10px 0;
+    }
+
+    .bio {
+      font-style: italic;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #555;
+      margin-bottom: 20px;
+      text-shadow: 3px 3px 3px rgb(63, 211, 30) ;
+    }
+
+    .follow-btn {
+      background-color: #a10202;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 14px;
+      letter-spacing: 0.5px;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .follow-btn:hover {
+      box-shadow: 0px 0px 0px px green;
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img class="profile-img" src="image/sahil.jpg" alt="Profile Photo" />
+    <h2 class="name">SAHIL</h2>
+    <p class="bio"><b>Passionate web developer. Loves creating clean and responsive UI. Coffee enthusiast and tech blogger.</b></p>
+    <button class="follow-btn">Follow</button>
+  </div>
+
+</body>
+</html>

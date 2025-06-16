@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>3 Boxes</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #6e7e2e;
+      padding: 30px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .box {
+      background-color: #ffffff;
+      padding: 20px;
+      border-left: 5px solid #3498db;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .question {
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .answer {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="box">
+      <div class="question">Q1: What is HTML?</div>
+      <div class="answer">HTML stands for HyperText Markup Language. </div>
+    </div>
+
+    <div class="box">
+      <div class="question">Q2: What is the difference between ID and Class in CSS?</div>
+      <div class="answer">An ID is a unique identifier used to style a single element, while a class can be used to apply styles to multiple elements. ID uses `#` in CSS, whereas class uses `.`.</div>
+    </div>
+
+    <div class="box">
+      <div class="question">Q3: What is the purpose of CSS?</div>
+      <div class="answer">CSS (Cascading Style Sheets) is used to style HTML elements. </div>
+    </div>
+  </div>
+
+</body>
+</html>
