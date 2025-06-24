@@ -6,17 +6,26 @@
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
   background: linear-gradient(135deg, #f0f4ff, #c2e9fb);
   color: #2c3e50;
+=======
+  background: linear-gradient(to right, #00c6ff, #5a9e11);
+  color: #333;
+>>>>>>> ecdebec71cbd68ff89a9823c682096d807ebcef7
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
   padding: 30px 15px;
+=======
+>>>>>>> ecdebec71cbd68ff89a9823c682096d807ebcef7
 }
 
 header {
   text-align: center;
+<<<<<<< HEAD
   padding: 40px 20px 20px;
   color: #1a1a1a;
 }
@@ -42,16 +51,45 @@ header h1 {
   max-width: 450px;
   margin: 30px 0;
   transition: all 0.3s ease-in-out;
+=======
+  padding: 30px 20px 10px;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  margin: 20px 0;
+>>>>>>> ecdebec71cbd68ff89a9823c682096d807ebcef7
 }
 
 .search-box {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   margin-bottom: 25px;
+=======
+  margin-bottom: 20px;
+>>>>>>> ecdebec71cbd68ff89a9823c682096d807ebcef7
 }
 
 input[type="text"] {
   flex: 1;
+<<<<<<< HEAD
   padding: 12px 15px;
   border-radius: 8px 0 0 8px;
   border: 1px solid #bbb;
@@ -78,10 +116,32 @@ button {
 
 button:hover {
   background-color: #c11633;
+=======
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #900808;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #8dc9ed;
+>>>>>>> ecdebec71cbd68ff89a9823c682096d807ebcef7
 }
 
 .results-box {
   text-align: center;
+<<<<<<< HEAD
   margin-top: 20px;
 }
 
@@ -117,5 +177,33 @@ footer a {
 }
 
 footer a:hover {
+=======
+  margin-top: 10px;
+}
+
+.results-box h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.results-box p {
+  font-size: 1rem;
+  margin: 6px 0;
+}
+
+.results-box img {
+  margin-top: 10px;
+}
+
+footer {
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: rgb(213, 209, 93);
+>>>>>>> ecdebec71cbd68ff89a9823c682096d807ebcef7
   text-decoration: underline;
 }
