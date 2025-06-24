@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Button ID Example</title>
+    
+</head>
+<body>
+
+<div id="myDiv">Original Text</div>
+<br>
+<button id="myButton">Click Me</button>
+
+<script>
+  document.getElementById("myButton").addEventListener("click", function() {
+    const div = document.getElementById("myDiv");
+    div.style.backgroundColor = "orange";   
+    div.innerText = "Hyy sahil........."; 
+  });
+</script>
+
+</body>
+</html>
