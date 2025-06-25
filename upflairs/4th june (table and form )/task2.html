@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+
+    <title>Task 2 - Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .form-container {
+            width: 500px;
+            margin: 0 auto;
+            background-color: #66ebff; 
+            padding: 20px;
+            border: 2px solid red;
+            border-radius: 8px;
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(9, 8, 8);
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            color: rgb(8, 8, 8);
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            width: 120px;
+            margin-bottom: 10px;
+        }
+        .gender, .hobbies {
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 80px;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 130px;
+            padding: 10px;
+            margin: 20px auto 0;
+            background: linear-gradient(to right, rgb(255, 0, 13), #0073ff);
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .submit-btn:hover {
+            background: linear-gradient(to right, #8833ff, #ff3300);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Personal Details</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br>
+            <label for="email">E-mail id:</label>
+            <input type="email" id="email" name="email"><br>
+            <label>Gender:</label>
+            <div class="gender">
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label>
+            </div><br>
+            <label for="contact">ContactNo.:</label>
+            <input type="text" id="contact" name="contact"><br>
+            <div class="section-title">Educational Qualification</div>
+            <label for="degree">Degree:</label>
+            <select id="degree" name="degree">
+                <option>-- Select Group --</option>
+                <option>B.Sc</option>
+                <option>BCA</option>
+                <option>Btech</option>
+            </select><br>
+            <label for="engineering">Engineering:</label>
+            <select id="engineering" name="engineering">
+                <option>-- Select Group --</option>
+                <option>Computer science</option>
+                <option>Electronics</option>
+                <option>Mechanical</option>
+            </select><br>
+            <label>Hobbies:</label>
+            <div class="hobbies">
+                <input type="checkbox" id="chess" name="hobbies" value="Chess">
+                <label for="chess">Playing chess</label>
+                <input type="checkbox" id="books" name="hobbies" value="Reading">
+                <label for="books">Reading Books</label>
+            </div><br>
+            <div class="section-title">Address</div>
+            <textarea name="address" id="address" cols="40" rows="4"></textarea><br>
+            <label for="resume">Attach Resume:</label>
+            <input type="file" id="resume" name="resume"><br>
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+    </div>
+
+</body>
+</html>
