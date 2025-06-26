@@ -21,35 +21,35 @@ function App() {
   const friends = [
     {
       name: "Sahil",
-      image: "https://images.app.goo.gl/fdhZAhqAVytha716A",
+      image: "https://media.istockphoto.com/id/1358545569/photo/busy-black-man-drawing-lines-on-a-big-canvas-with-painting-on-a-table.jpg?s=612x612&w=0&k=20&c=Onxij6IgLkMMkOFBO7lvmUMWOjolve-W2M6iD8RTnCA=",
       hobby: "Painting",
       quote: "Art is life.",
-      contact: "aarav@example.com"
+      contact: "sahil@example.com"
     },
     {
       name: "Krishna",
-      image: "https://images.app.goo.gl/zWECzKpDjSQgY7Bm8",
+      image: "https://t4.ftcdn.net/jpg/03/26/90/45/240_F_326904574_HcDsA8iCrwJyO8aUzBDD3uQBJOmPNY2U.jpg",
       hobby: "Singing",
       quote: "Music heals the soul.",
-      contact: "meera@example.com"
+      contact: "krishnaa@example.com"
     },
     {
-      name: "Amanr",
-      image: "https://images.app.goo.gl/57LPev4UFMWQJxJbA",
+      name: "Aman",
+      image: "https://media.istockphoto.com/id/1125707375/photo/businessman-going-to-office-on-bicycle.jpg?s=612x612&w=0&k=20&c=gnUglrbu8j0g7oDNsmSKMzoY1_Ho7sGZ0xSboVXkS_8=",
       hobby: "Cycling",
       quote: "Keep moving forward.",
-      contact: "kabir@example.com"
+      contact: "aman@example.com"
     },
     {
       name: "Harsham",
-      image: "https://images.app.goo.gl/E3yRTAaSVD4voaWb9",
+      image: "https://media.istockphoto.com/id/467844284/photo/beautiful-latin-woman-reading-a-book-at-home.jpg?s=612x612&w=0&k=20&c=9bGRFURBuvAOXQEWITEEkCzVCgSKW-znMvscvcrex-g=",
       hobby: "Reading",
       quote: "Books are magic.",
-      contact: "simran@example.com"
+      contact: "harsham@example.com"
     },
     {
       name: "Rohan",
-      image: "https://images.app.goo.gl/6fPCvZyHndrtWhGN9",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8gFy37qurHs04eTnFQOE33z5GC6tW5yIEKg&s",
       hobby: "Photography",
       quote: "Capture the moment.",
       contact: "rohan@example.com"

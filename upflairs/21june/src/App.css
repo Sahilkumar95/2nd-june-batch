@@ -26,7 +26,7 @@ h1 {
   padding: 20px;
   text-align: left;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  background: #ffffff;
+  background: #abd8e4;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
