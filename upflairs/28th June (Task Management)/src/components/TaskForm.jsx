@@ -47,9 +47,9 @@ function TaskForm({ onAdd, editTask, onUpdate }) {
         placeholder="Description"
       />
       <select name="priority" value={task.priority} onChange={handleChange}>
-        <option>Low</option>
+        <option>basic</option>
         <option>Medium</option>
-        <option>High</option>
+        <option>Advanced</option>
       </select>
       <button type="submit">{task.id ? 'Update Task' : 'Add Task'}</button>
     </form>
